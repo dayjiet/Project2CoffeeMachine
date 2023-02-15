@@ -1,10 +1,15 @@
 import java.util.Scanner;
 
-public class Action {
+public class ShowCoffeeMachineMenu {
     public enum CoffeeMachineStatus {
         BUY, FILL, TAKE, REMAINING, EXIT
     }
-    public static void action() {
+
+    /**
+     * Method displays the coffee menu options with their respective codes to the user. Prompt the user to select
+     * an option or go back to the main menu by entering "back"
+     */
+    public static void showCoffeeMachineMenu() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write action (buy, fill, take, remaining, exit):");
         String action = scanner.nextLine();
@@ -17,7 +22,7 @@ public class Action {
                 System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
                 String coffeeType = scanner.nextLine();
 
-                Buy.buy(coffeeType);
+                BuyCoffee.buyCoffee(coffeeType);
                 break;
             case FILL:
                 System.out.println();
@@ -36,12 +41,12 @@ public class Action {
             case TAKE:
                 System.out.println();
 
-                Take.take();
+                TakeCash.takeCash();
                 break;
             case REMAINING:
                 System.out.println();
 
-                Remaining.remaining();
+                ShowRemaining.showRemaining();
                 break;
             case EXIT:
                 break;

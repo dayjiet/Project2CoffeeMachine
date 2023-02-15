@@ -1,5 +1,6 @@
-public class Remaining {
-    public static void remaining() {
+public class ShowRemaining {
+    public static void showRemaining() {
+
         System.out.println("The coffee machine has:");
         System.out.println(CoffeeMachine.remainingWater + " ml of water");
         System.out.println(CoffeeMachine.remainingMilk + " ml of milk");
@@ -8,6 +9,6 @@ public class Remaining {
         System.out.println("$" + CoffeeMachine.remainingCash + " of money");
         System.out.println();
 
-        Action.action();
+        ShowCoffeeMachineMenu.showCoffeeMachineMenu();
     }
 }
