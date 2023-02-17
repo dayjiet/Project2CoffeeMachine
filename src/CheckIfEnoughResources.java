@@ -7,10 +7,10 @@ public class CheckIfEnoughResources {
      * prints a message indicating which resource is not enough and returns to the main menu.
      */
     public static void checkIfEnoughResources(int waterForCup, int milkForCup, int coffeeForCup, int cup, int cost) {
-        int remainingWaterAfter = CoffeeMachine.remainingWater - waterForCup;
-        int remainingMilkAfter = CoffeeMachine.remainingMilk - milkForCup;
-        int remainingCoffeeAfter = CoffeeMachine.remainingCoffee - coffeeForCup;
-        int remainingCupsAfter = CoffeeMachine.remainingCups - cup;
+        int remainingWaterAfter = StoreCoffeeMachineData.remainingWater - waterForCup;
+        int remainingMilkAfter = StoreCoffeeMachineData.remainingMilk - milkForCup;
+        int remainingCoffeeAfter = StoreCoffeeMachineData.remainingCoffee - coffeeForCup;
+        int remainingCupsAfter = StoreCoffeeMachineData.remainingCups - cup;
 
         if (remainingWaterAfter < 0) {
             System.out.println("Sorry, not enough water!");
@@ -35,13 +35,13 @@ public class CheckIfEnoughResources {
         } else {
             System.out.println("I have enough resources, making you a coffee!");
             System.out.println();
-            int remainingWater = CoffeeMachine.remainingWater - waterForCup;
-            int remainingMilk = CoffeeMachine.remainingMilk - milkForCup;
-            int remainingCoffee = CoffeeMachine.remainingCoffee - coffeeForCup;
-            int remainingCups = CoffeeMachine.remainingCups - cup;
-            int remainingCash = CoffeeMachine.remainingCash + cost;
+            int remainingWater = StoreCoffeeMachineData.remainingWater - waterForCup;
+            int remainingMilk = StoreCoffeeMachineData.remainingMilk - milkForCup;
+            int remainingCoffee = StoreCoffeeMachineData.remainingCoffee - coffeeForCup;
+            int remainingCups = StoreCoffeeMachineData.remainingCups - cup;
+            int remainingCash = StoreCoffeeMachineData.remainingCash + cost;
 
-            CoffeeMachine.coffeeMachine(remainingWater, remainingMilk, remainingCoffee, remainingCups, remainingCash);
+            StoreCoffeeMachineData.coffeeMachine(remainingWater, remainingMilk, remainingCoffee, remainingCups, remainingCash);
             ShowCoffeeMachineMenu.showCoffeeMachineMenu();
         }
     }

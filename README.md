@@ -19,7 +19,7 @@ This code simulates a coffee machine that allows the user to perform various act
 ## Usage
 
 1. Clone the repository to your local machine.
-2. Compile and run the Main.java file.
+2. Compile and run the StoreCoffeeMachineData.java file.
 3. Follow the on-screen instructions to perform the desired action.
   
 ## Note
