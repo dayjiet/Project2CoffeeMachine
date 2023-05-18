@@ -1,5 +1,7 @@
 # Coffee Machine (Java)
-```https://hyperskill.org/projects/33```
+```html
+https://hyperskill.org/projects/33
+```
 
 ## Table of Contents
 - [Description](#description)
@@ -38,15 +40,13 @@ To use the Coffee Machine program, follow these steps:
 5. The program will perform the specified action and return to the main menu for further interactions.
 
 ## Feedback
-During the development of the Simple Banking System project, I gained a deeper understanding of object-oriented programming (OOP) principles and strengthened my knowledge of Java programming. Through this project, I had the opportunity to apply OOP concepts such as classes, class methods, and attributes, which helped me organize the code and improve code reusability.
+Throughout the Coffee Machine project, I gained a deeper understanding of object-oriented programming (OOP) and its fundamental concepts, including classes, class methods, and attributes, while strengthening my Java skills. This project provided me with ample opportunities to practice working with methods, challenge myself with loops and conditions, and enhance my overall confidence with OOP.
 
-One of the main challenges I encountered was designing the structure of the banking system and implementing the necessary functionalities. I had to carefully plan the class hierarchy, ensuring that each class had clear responsibilities and that they interacted correctly. Additionally, I had to handle user input, validate it, and perform appropriate actions based on the user's choices.
+One of the main challenges I encountered was managing the inventory of the coffee machine and displaying notifications when certain ingredients ran out. To overcome this, I implemented appropriate logic to track the availability of products and prompt users when supplies were low.
 
-To overcome these difficulties, I broke down the problem into smaller tasks and implemented them incrementally. I used methods, loops, and conditional statements to handle different scenarios and ensure the system behaved as expected. Debugging and testing played a crucial role in identifying and resolving any issues that arose during development.
+Additionally, implementing the functionality to collect money and dispense different types of coffee presented an interesting problem to solve. I successfully integrated payment processing and coffee selection mechanisms, ensuring a seamless user experience.
 
-Through this project, I not only improved my coding skills but also gained confidence in working with OOP concepts and Java. It provided me with a valuable opportunity to practice problem-solving, code organization, and logical thinking.
-
-Overall, the Simple Banking System project was a valuable learning experience, allowing me to apply my knowledge of OOP, practice implementing complex functionalities, and enhance my overall programming abilities.
+Overall, this project was instrumental in improving my grasp of OOP principles and sharpening my programming skills in Java. It provided an engaging opportunity to simulate a coffee machine and further developed my proficiency in working with methods, loops, and conditions. I now feel more equipped to tackle complex programming tasks and apply OOP concepts in future projects.
 
 ## Contributing
 If you would like to contribute to the Coffee Machine project, please follow these guidelines:
@@ -65,6 +65,7 @@ The Coffee Machine project has the following dependencies:
 
 ## Contact Information
 If you have any questions, suggestions, or feedback regarding the Coffee Machine project, please feel free to contact us:
-- daulet.toganbayev@gmail.com
+
+```daulet.toganbayev@gmail.com```
 
 We appreciate your interest and contribution to the Coffee Machine project. Enjoy your coffee!
