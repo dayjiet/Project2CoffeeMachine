@@ -1,3 +1,7 @@
+package serving.mode;
+
+import serving.base.ShowCoffeeMachineMenu;
+
 public class BuyCoffee {
     public enum CoffeeStatus {
         ONE, TWO, THREE, BACK;

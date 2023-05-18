@@ -1,7 +1,11 @@
+package serving.mode;
+
+import serving.util.CheckIfEnoughResources;
+
 public class BuyLatte {
 
     /**
-     * Method subtracts resources for making one cup of latteatte. If there are not enough resources,
+     * Method subtracts resources for making one cup of latte. If there are not enough resources,
      * the machine returns an error message and asks to perform an action
      */
     public static void buyLatte() {

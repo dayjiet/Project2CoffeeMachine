@@ -1,9 +1,11 @@
+package serving.base;
+
 public class StoreCoffeeMachineData {
-    static int remainingWater = 400;
-    static int remainingMilk = 540;
-    static int remainingCoffee = 120;
-    static int remainingCups = 9;
-    static int remainingCash = 550;
+    public static int remainingWater = 400;
+    public static int remainingMilk = 540;
+    public static int remainingCoffee = 120;
+    public static int remainingCups = 9;
+    public static int remainingCash = 550;
 
     /**
      * Method adds the specified amount of cash to the remaining cash,

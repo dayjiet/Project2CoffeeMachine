@@ -1,3 +1,8 @@
+package serving.util;
+
+import serving.base.ShowCoffeeMachineMenu;
+import serving.base.StoreCoffeeMachineData;
+
 public class Fill {
 
     /**

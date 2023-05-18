@@ -1,3 +1,7 @@
+package serving.mode;
+
+import serving.util.CheckIfEnoughResources;
+
 public class BuyCappuccino {
 
     /**

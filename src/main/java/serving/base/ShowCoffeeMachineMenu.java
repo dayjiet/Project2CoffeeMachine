@@ -1,3 +1,10 @@
+package serving.base;
+
+import serving.mode.BuyCoffee;
+import serving.util.Fill;
+import serving.util.ShowRemaining;
+import serving.util.TakeCash;
+
 import java.util.Scanner;
 
 public class ShowCoffeeMachineMenu {
