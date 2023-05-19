@@ -1,22 +1,24 @@
-package serving.base;
+package serving.view;
 
-import serving.mode.BuyCoffee;
-import serving.util.Fill;
-import serving.util.ShowRemaining;
-import serving.util.TakeCash;
+import serving.service.Fill;
+import serving.service.Remaining;
+import serving.dao.Cash;
 
 import java.util.Scanner;
 
-public class ShowCoffeeMachineMenu {
+/**
+ * The ShowCoffeeMachineMenu class provides methods for displaying the coffee machine menu and handling user input.
+ */
+public class Menu {
     public enum CoffeeMachineStatus {
         BUY, FILL, TAKE, REMAINING, EXIT
     }
 
     /**
-     * Method displays the coffee menu options with their respective codes to the user. Prompt the user to select
-     * an option or go back to the main menu by entering "back"
+     * Displays the coffee machine menu options and prompts the user to select an option.
+     * The method handles the selected option and performs the corresponding action.
      */
-    public static void showCoffeeMachineMenu() {
+    public static void show() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write action (buy, fill, take, remaining, exit):");
         String action = scanner.nextLine();
@@ -29,7 +31,7 @@ public class ShowCoffeeMachineMenu {
                 System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
                 String coffeeType = scanner.nextLine();
 
-                BuyCoffee.buyCoffee(coffeeType);
+                Coffee.buy(coffeeType);
                 break;
             case FILL:
                 System.out.println();
@@ -48,12 +50,12 @@ public class ShowCoffeeMachineMenu {
             case TAKE:
                 System.out.println();
 
-                TakeCash.takeCash();
+                Cash.take();
                 break;
             case REMAINING:
                 System.out.println();
 
-                ShowRemaining.showRemaining();
+                Remaining.show();
                 break;
             case EXIT:
                 break;
