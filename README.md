@@ -38,16 +38,6 @@ To use the Coffee Machine program, follow these steps:
 - To exit the program, enter exit.
 4. Follow the prompts and enter the required information based on the selected action.
 5. The program will perform the specified action and return to the main menu for further interactions.
-   
-To run the Project2CoffeeMachine-1.0-SNAPSHOT.jar file, perform the following steps:
-
-1. Download the JAR file.
-2. Open a terminal or command prompt: Navigate to the directory where the JAR file is located.
-3. Run the JAR file: Enter the following command to execute the JAR file:
-```shell
-java -jar Project2CoffeeMachine-1.0-SNAPSHOT.jar
-```
-4. Follow the on-screen instructions: The program will display a menu with different options. Enter the corresponding number to perform the desired action.
 
 ## Feedback
 Throughout the Coffee Machine project, I gained a deeper understanding of object-oriented programming (OOP) and its fundamental concepts, including classes, class methods, and attributes, while strengthening my Java skills. This project provided me with ample opportunities to practice working with methods, challenge myself with loops and conditions, and enhance my overall confidence with OOP.
