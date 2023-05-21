@@ -61,7 +61,7 @@ The Coffee Machine project has the following dependencies:
 - Java Development Kit (JDK): The project requires a compatible JDK version to compile and run the Java code. Make sure you have the appropriate JDK installed on your system.
 
 ## Contact Information
-If you have any questions, suggestions, or feedback regarding the Cinema Room Manager project, please contact:
+If you have any questions, suggestions, or feedback regarding the Coffee Machine project, please contact:
 - Project Developer: ```Daulet Toganbayev```
 - Email: ```daulet.toganbayev@gmail.com```
 
